@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "bucket08222_anand2" {
-  bucket = "user-bucket"
+  bucket = "user-bucket-anand0108222"
   acl    = "private"
 
   tags = {
