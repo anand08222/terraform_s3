@@ -11,3 +11,4 @@ resource "aws_s3_bucket" "b" {
 # Use AWS Terraform provider
 provider "aws" {
   region = "us-east-1"
+  }  
