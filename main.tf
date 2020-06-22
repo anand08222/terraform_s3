@@ -7,7 +7,7 @@ terraform {
  }
 }
 
-resource "aws_s3_bucket" "bucket08222" {
+resource "aws_s3_bucket" "bucket08222_anand2" {
   bucket = "user-bucket"
   acl    = "private"
 
