@@ -34,8 +34,8 @@ provider "aws" {
 
 #NEW CODE
  
- resource "aws_s3_bucket" "bucket08222_anand23" {
-  bucket = "mybucket_anand_t22"
+ resource "aws_s3_bucket" "bucket08222_anand32" {
+  bucket = "user-bucket-anand018222"
   acl    = "private"
 
   tags = {
@@ -49,7 +49,7 @@ locals {
 
 resource "aws_cloudfront_distribution" "s3_distribution" {
   origin {
-    domain_name = "${aws_s3_bucket.bucket08222_anand23.bucket_regional_domain_name}"
+    domain_name = "${aws_s3_bucket.bucket08222_anand32.bucket_regional_domain_name}"
     origin_id   = "${local.s3_origin_id}"
 
     s3_origin_config {
