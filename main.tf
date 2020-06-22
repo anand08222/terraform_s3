@@ -1,11 +1,11 @@
-/*
+
 terraform {
   backend "s3" {
     bucket = "terraform-bucket-anand2"
     key    = "myapp/dev/terraform.tfstate"
     region = "us-east-1"
  }
-}*/
+}
 
 
 /* resource "aws_s3_bucket" "b" {
