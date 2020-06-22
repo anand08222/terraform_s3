@@ -1,7 +1,7 @@
 #Terraform state will be stored in S3
 terraform {
   backend "s3" {
-    bucket = "terraform-bucket-anand"
+    bucket = "terraform-bucket-anand2"
     key    = "myapp/dev/terraform.tfstate"
     region = "us-east-1"
  }
