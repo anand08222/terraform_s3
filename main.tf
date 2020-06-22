@@ -16,15 +16,7 @@ resource "aws_s3_bucket" "bucket08222_anand2" {
     Environment = "Dev"
   }
 }
-resource "aws_s3_bucket" "bucket08222_anand3" {
-  bucket = "user-bucket-anand0108232"
-  acl    = "private"
 
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
 /* resource "aws_s3_bucket" "b" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
