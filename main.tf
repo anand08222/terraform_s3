@@ -1,3 +1,12 @@
+Terraform state will be stored in S3
+terraform {
+  backend "s3" {
+    bucket = "terraform-bucket-alex"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
+ }
+}
+
 /* resource "aws_s3_bucket" "b" {
   bucket = "my-tf-test-bucket"
   acl    = "private"
