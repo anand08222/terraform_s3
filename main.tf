@@ -16,7 +16,7 @@ resource "aws_s3_bucket" "bucket08222_anand2" {
     Environment = "Dev"
   }
 }
-resource "aws_s3_bucket" "bucket08222_anand2" {
+resource "aws_s3_bucket" "bucket08222_anand223" {
   bucket = "user-bucket-anand01082gfjhf22"
   acl    = "private"
 
